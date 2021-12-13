@@ -38,7 +38,10 @@ html, body {
   width: 100%;
 }
 
-const images = ["images/img_01.jpg", "images/img_02.jpg", "images/img_03.jpg"];
+const images = ["https://pbs.twimg.com/media/E-DJvlNXIAM-Omu?format=jpg&name=orig",
+"https://pbs.twimg.com/media/E-DJvlSXoAUshwT?format=jpg&name=orig", 
+"https://pbs.twimg.com/media/E-DJwolWYAUkiCD?format=jpg&name=orig"
+];
 
 document.addEventListener('DOMContentLoaded', _ => {
   const randImageIndex = ~~(Math.random() * images.length);
