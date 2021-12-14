@@ -7,7 +7,7 @@
 }
 
 html, body {
-  background: var(--color-bg);
+  background: linear-gradient(to bottom right, #1A131A, #F2B86F);
   color: var(--color-fg);
   font-family: "Fira Code";
   height: 100%;
