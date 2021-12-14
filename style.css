@@ -8,12 +8,22 @@
 
 html, body {
   background: linear-gradient(to bottom right, #1A131A, #F2B86F);
+  background-size:200% 200%;
+  animation: rememberly-background 30s ease infinite;
   color: var(--color-fg);
   font-family: "Fira Code";
-  height: 100%;
-  width: 100%;
+  min-height: 100vh;
   margin: 0;
   padding: 0;
+}
+
+@keyframes rememberly-background {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
 }
 
 .container {
