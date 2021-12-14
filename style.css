@@ -8,11 +8,11 @@
 
 html, body {
   background: linear-gradient(to bottom right, #1A131A, #F2B86F);
-  background-size: 400% 400%;
-  -webkit-animation: AnimationName 5s ease infinite;
-  -moz-animation: AnimationName 5s ease infinite;
-  -o-animation: AnimationName 5s ease infinite;
-  animation: AnimationName 5s ease infinite;
+  background-size: 100% 100%;
+  -webkit-animation: AnimationName 30s ease infinite;
+  -moz-animation: AnimationName 30s ease infinite;
+  -o-animation: AnimationName 30s ease infinite;
+  animation: AnimationName 30s ease infinite;
 }
 @-webkit-keyframes AnimationName {
     0%{background-position:27% 0%}
