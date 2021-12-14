@@ -33,7 +33,7 @@ html, body {
     ". left right .";
   column-gap: 80px;
   justify-items: center;
-  align-items: bottom;
+  align-items: center;
   min-height: 100vh;
 }
 
