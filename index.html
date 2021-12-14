@@ -7,6 +7,21 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
+<script type="text/javascript">
+  var imageURLs = [
+       "images/img_01.jpg"
+     , "images/img_02.jpg"
+     , "images/img_03.jpg"
+  ];
+  function getImageTag() {
+    var img = '<img src=\"';
+    var randomIndex = Math.floor(Math.random() * imageURLs.length);
+    img += imageURLs[randomIndex];
+    img += '\" alt=\"Some alt text\"/>';
+    return img;
+  }
+</script>
+ 
 <body>
     <div class="container">
         <div class="left-container">
@@ -17,7 +32,9 @@
 
         <div class="right-container">
             <div class="head">
-                <p>Charanko<span class="blinking">_</span></p>
+                <script type="text/javascript">
+                    document.write(getImageTag());
+                </script>
             </div>
 
             <div class="bookmarks">
