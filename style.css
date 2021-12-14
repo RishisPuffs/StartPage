@@ -9,7 +9,7 @@
 html, body {
   background: linear-gradient(to bottom right, #1A131A, #F2B86F);
   background-size:200% 200%;
-  animation: rememberly-background 30s ease infinite;
+  animation: rememberly-background 30s ease-in-out infinite;
   color: var(--color-fg);
   font-family: "Fira Code";
   min-height: 100vh;
