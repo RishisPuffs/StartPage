@@ -18,7 +18,7 @@ html, body {
 }
 
 @keyframes rememberly-background {
-    0% {
+    0%,100% {
         background-position: 0% 50%
     }
     50% {
